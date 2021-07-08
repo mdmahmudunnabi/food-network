@@ -12,33 +12,34 @@ body{
 
 .half-width{
     width: 50%;
-    padding-left: 10%;
+    padding-left: 40px;
     padding-top: 5%;
 }
 
 .half-width img{
     width: 50%;
+    height:initial;;
 }
 
 .link-button{
     text-decoration: none;
     background-color: orange;
     padding: 10px 40px;
-    border-radius: 5%;
-    background-image: linear-gradient(orange, tomato) ;
+    border-radius: 40px;
+    background-image: linear-gradient(orange, rgb(224, 46, 14)) ;
     color: white;
     font-weight: 700;
 }
 
-.top-banner{
-    background-image: url(images/top-banner.png);
+.about{
+    background-image: url(/images/7.png);
     background-repeat: no-repeat;
+    background-position: left;
+
 }
 
-.dream-big{
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+.top-section{
+    padding-bottom: 150px;
 }
 
 .name-color2{
@@ -49,12 +50,12 @@ body{
     color:pink
 }
 
-.half-width-shadow{
+.shadow{
     box-shadow: 10px 10px 40px greenyellow;
-    width: 40%;
+    width: 25%;
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 5%;   
+    padding: 5px  ;   
     border-radius: 5px;
 }
 
@@ -62,25 +63,22 @@ body{
     font-size: 40px;
 }
 
-.experience-area{
-    background-image: url(images/exp-bg.png) ;
-    background-repeat: no-repeat;
-    background-position: left;
+.my-recipies{
+    
     margin-bottom: 100px;
 }
 
-#full-stuck{
-    border-image: linear-gradient(blue, cyan) ;
-    border-image-slice: 1;
-    border-left: 7px solid ;
+
+.recipies-header{
+text-align: center;
 }
 
-#web-developer{
-    border-image: linear-gradient(salmon, tomato) ;
-    border-image-slice: 1;
-    border-left: 7px solid ;
+.quarter-width{
+    width: 100%;
+    padding-top: 5%; 
+    padding-left: 5%;
 }
 
-footer p{
-    text-align: center;
+.quarter-width img{
+    width: 90%;
 }
